@@ -1,4 +1,12 @@
 @charset "utf-8";
+
+*, *:after, *:before {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
+}
+
 /* CSS Document */
 section {
 	padding-top:100px;
@@ -8,4 +16,15 @@ body {
 }
 header {
 	background-color:#999999;
+}
+
+/*ADAPTIVE*/
+
+@media (max-width: 768px) {
+/* показываем кнопку для переключения верхней навигации */
+.nav-toggle {
+display: block;
+}
+header {
+padding: 10px 0;
 }
