@@ -26,8 +26,7 @@ header {
 	margin: 0 auto;
 	padding-top: 5%;
 }
-.carousel-control-prev {
-}
+
 /*ADAPTIVE*/
 
 @media (max-width: 768px) {
@@ -39,9 +38,16 @@ header {
 padding: 10px 0;
 }
 .gallery {
+	display: block;
 	max-width: 80%;
 	max-height: 500px;
 	margin: 0 auto;
 	padding-top: 5%;
 	size: 100%; 
+}
+.carousel-control-prev {
+	display: none;
+}
+.carousel-control-next {
+	display: none;
 }
