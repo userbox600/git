@@ -38,3 +38,10 @@ display: block;
 header {
 padding: 10px 0;
 }
+.gallery {
+	max-width: 80%;
+	max-height: 500px;
+	margin: 0 auto;
+	padding-top: 5%;
+	size: 100%; 
+}
