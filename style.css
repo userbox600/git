@@ -47,7 +47,9 @@ padding: 10px 0;
 }
 .carousel-control-prev {
 	display: none;
+	background:url(img/arr.png);
 }
 .carousel-control-next {
 	display: none;
+	background:url(img/arr.png);
 }
